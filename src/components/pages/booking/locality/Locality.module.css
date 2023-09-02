@@ -1,0 +1,16 @@
+.locality {
+
+}
+
+.locality__heading {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #424242;
+    margin: 0;
+    padding: 2rem 5rem;
+}
+@media screen and (max-width: 800px) {
+    .locality__heading{
+        padding: 2rem 1rem;
+    }
+}

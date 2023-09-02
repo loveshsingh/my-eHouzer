@@ -1,0 +1,228 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem 4rem;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    height: 4rem;
+    z-index: 100;
+}
+
+.nav__logo {
+    height: 2.5rem;
+    width: 8.5rem;
+}
+
+.nav__brand-name {
+    color: var(--primary-color);
+}
+
+.nav__loc-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.nav__loc-icon {
+    height: fit-content;
+    font-size: 0.7rem !important;
+    color: var(--sonic-silver);
+}
+
+.nav__loc-name {
+    font-size: 0.75rem;
+    color: var(--sonic-silver);
+    margin-left: 5px
+}
+
+.nav__search-wrapper {
+    display: flex;
+    align-items: center;
+    /*justify-content: center;*/
+    /*height: 2.1rem;*/
+    height: 34px;
+    /*height: 3.36rem;*/
+    /*width: 32.5rem;*/
+    width: 520px;
+    /*width: 52rem;*/
+    background-color: #F3F3F3;
+    border-radius: 20px;
+    border: 1px solid #BE6E73;
+}
+
+.nav__search-wrapper span:last-of-type {
+    margin-left: auto;
+}
+
+.nav__loc-dropdown {
+    margin: 0 20px 0 15px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.nav__loc-dropdown-select-value {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5E5E5;
+    padding: 0.2rem 0.5rem;
+    border-radius: 10px;
+}
+
+.nav__loc-dropdown-select-value-text {
+    font-size: 0.75rem;
+    color: #D03C43;
+    font-weight: 500;
+}
+
+.nav__loc-dropdown-text {
+    font-size: 0.75rem;
+    color: var(--sonic-silver);
+    width: 95%;
+}
+
+.nav__loc-dropdown-selected-text {
+    font-size: 0.75rem;
+    color: #D03C43;
+    font-weight: 500;
+    background-color: #F5E5E5;
+    padding: 0.2rem 0.5rem;
+    border-radius: 10px;
+    width: 95%;
+}
+
+.nav__loc-input {
+    background: unset;
+    border: unset;
+    outline: unset;
+    font-size: 0.75rem;
+    color: var(--sonic-silver);
+    width: 100%;
+}
+
+
+.nav__divider {
+    height: 25px;
+    width: 1px;
+    background: var(--chinese-silver);
+}
+
+.nav__property-type {
+    margin: 0 20px;
+}
+
+/*.nav__dropdown-icon {*/
+/*    height: fit-content;*/
+/*    font-size: 1.2rem !important;*/
+/*    color: var(--sonic-silver);*/
+/*}*/
+
+.nav__range_dropdown {
+    margin: 0 20px;
+}
+
+.nav__search-icon-wrapper {
+    width: 2.5rem;
+    height: 100%;
+    background-color: #A32B31;
+    border-radius: 0 40px 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    padding-right: 0.2rem;
+    cursor: pointer;
+}
+
+/*.nav__search-icon {*/
+/*    height: fit-content;*/
+/*    font-size: 1rem !important;*/
+/*    color: #FFFFFF;*/
+/*}*/
+
+.nav__fav-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav__fav-icon-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    background-color: #BE6E73;
+}
+
+.nav__fav-icon {
+    height: fit-content;
+    font-size: 0.8rem !important;
+    color: #fff;
+}
+
+.nav__fav-text {
+    font-size: 0.75rem;
+    color: var(--sonic-silver);
+    margin-left: 5px;
+}
+
+.nav__login-button {
+    padding: 8px 22px;
+}
+
+.nav__menu-icon {
+    height: fit-content;
+    font-size: 1.1rem !important;
+    color: #70080D;
+    cursor: pointer;
+}
+
+.nav__list__dropdown{
+    position: absolute;
+    width: 25rem;
+    height: 20rem;
+    left: 0;
+    top: 3rem;
+    background: white;
+    border-radius: 4px;
+    border: 1px solid #BE6E73;
+    overflow: auto;
+}
+.SelectedQueriesModal-wrapper{
+    position: absolute;
+    left: 0;
+    top: 3rem;
+    background: white;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+.nav__list__dropdown::-webkit-scrollbar {
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    .nav {
+        padding: 1rem;
+    }
+    .nav__search-wrapper {
+        display: none;
+    }
+    .nav__list__dropdown{
+        position: absolute;
+        width: 18rem;
+        height: 20rem;
+        left: 0;
+        top: 3rem;
+        background: white;
+        border-radius: 4px;
+        border: 1px solid #BE6E73;
+        overflow: auto;
+        z-index: 1;
+    }
+}

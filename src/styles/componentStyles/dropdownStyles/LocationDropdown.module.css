@@ -1,0 +1,51 @@
+.location-dropdown {
+    position: relative;
+    width: 35rem;
+    height: 20rem;
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid #BE6E73;
+    z-index: 2;
+}
+
+.location-dropdown__list-wrapper {
+    padding: 0;
+    height: 85%;
+    overflow:auto;
+    border-radius: inherit;
+}
+
+.location-dropdown__list-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.location-dropdown__list {
+    list-style-type: none;
+    padding: 1rem;
+    color: #747474;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.location-dropdown__list--active {
+    list-style-type: none;
+    padding: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px 4px 0 0;
+    color: #B0474C;
+    font-weight: bold;
+}
+
+.location-dropdown__list:hover,
+.location-dropdown__list--active:hover{
+    background-color: #B0474C;
+    border-radius: 4px 4px 0 0;
+    color: white;
+}
+
+@media screen and (max-width: 800px) {
+    .location-dropdown {
+        width: 18rem;
+    }
+}

@@ -1,0 +1,43 @@
+
+.dialog__container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    background: rgba(0,0,0,0.5);
+}
+
+.dialog__inner_container {
+    width: 330px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #8C8C8C;
+    border-radius: 4px;
+    padding: 16px;
+    z-index: 1;
+}
+
+.dialog__content {
+    padding-bottom: 11px;
+}
+
+.dialog__footer {
+    display: flex;
+    justify-content: end;
+}
+
+.dialog__button {
+    padding: 5px 10px;
+    color: #FF5757
+}
+
+.dialog__button:hover {
+    opacity: 0.5;
+}

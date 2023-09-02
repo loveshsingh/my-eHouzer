@@ -1,0 +1,37 @@
+.top-developers {
+    padding: 2rem 3rem;
+}
+
+.top-developers__heading-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 2rem;
+}
+
+.top-developers__heading {
+    font-size: 2.5rem;
+}
+
+.top-developers__view-more {
+    font-size: 18px;
+    font-weight: 600;
+    color: #9A5255;
+    cursor: pointer;
+}
+
+.top-developers__view-more:hover {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(154, 82, 85, 6);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+    .top-developers {
+        padding: 0rem;
+    }
+    .top-developers__heading{
+        font-size: 1.5rem;
+    }
+}

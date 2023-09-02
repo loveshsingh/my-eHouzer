@@ -1,0 +1,324 @@
+/** {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*}*/
+
+/*html {*/
+/*    overflow-x: hidden;*/
+/*}*/
+
+/*body {*/
+/*    font-family: "Roboto", sans-serif;*/
+/*    color: #9fa1a4;*/
+/*    line-height: 1.5;*/
+/*}*/
+
+/*a {*/
+/*    color: #777;*/
+/*    text-decoration: none;*/
+/*    transition: 0.3s all ease;*/
+/*}*/
+
+/*a:hover {*/
+/*    color: #000;*/
+/*}*/
+
+/*h1,*/
+/*h2,*/
+/*h3,*/
+/*h4,*/
+/*h5,*/
+/*h6,*/
+/*.font-heading {*/
+/*    font-family: "Poppins", sans-serif;*/
+/*    color: #000;*/
+/*}*/
+
+.red {
+    color: #de6b71;
+}
+
+/* Main */
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Left side bar  */
+
+.left-bar {
+    width: 31%;
+}
+
+.side-img {
+    background-size: 30vw 100vh;
+    background-repeat: no-repeat;
+    height: 93.5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding-left: 42%;
+    padding-top: 40px;
+}
+
+.head-container {
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.white-box {
+    height: 50px;
+    width: 45px;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.description {
+    color: white;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.description .highlight {
+    font-size: 20px;
+}
+
+/* Right Side Bar */
+
+
+.right-bar {
+    height: 10vh;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-left: 30px;
+}
+
+.cross span {
+    float: right;
+    font-size: 34px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.dot {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 8px;
+    background-color: black;
+    float: left;
+}
+.input-box {
+    max-width: 650px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.title h3 {
+    color: #ab4247;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.subtitle h3 {
+    text-align: left;
+}
+
+.calender-box {
+    padding: 20px 40px;
+    box-shadow: 5px 5px 20px;
+    margin: 20px 0;
+    border-radius: 20px;
+}
+
+.calender-box table {
+    width: 100%;
+}
+
+.table, .td, .th {
+    border-collapse: collapse;
+}
+
+.td, .th {
+    text-align: center;
+    padding: 4px 0;
+    width: 120px;
+}
+
+.th {
+    color: black;
+}
+
+.month-box {
+    float: right;
+    margin-right: 10px;
+    padding: 5px 7px;
+    color: blue;
+    font-weight: bold;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+
+.month-box option {
+    padding: 7px;
+    border: none;
+}
+
+.year-box {
+    float: left;
+    margin-left: 20px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+
+.td button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 80%;
+    padding: 5px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.current {
+}
+
+.current.disabled {
+    color: #e47277 !important;
+}
+
+button.not-current {
+    color: #cacaca !important;
+}
+
+.current.active {
+    background-color: #7e151a;
+    color: white;
+}
+
+.select.current:hover {
+    background-color: grey;
+    color: white;
+}
+
+.sunday, .sunday button {
+    color: red;
+}
+
+.sunday .not-current {
+    color: #eb9c9f !important;
+}
+
+.visit-type {
+    display: flex;
+    flex-direction: row;
+}
+
+.visit-type> div {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    width: 120px;
+}
+
+
+.visit-type input[type='radio'] {
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    outline: none;
+    border: 1px solid #ab4247;
+    cursor: pointer;
+}
+
+.visit-type input[type='radio']:before {
+    content: '';
+    display: block;
+    width: 60%;
+    height: 60%;
+    margin: 22% auto;
+    border-radius: 50%;
+}
+
+.visit-type input[type="radio"]:checked:before {
+    background: #ab4247;
+
+}
+
+.visit-type label {
+    margin-left: 5px;
+}
+
+.visit-type input[type="radio"]:checked + label {
+    color: black;
+}
+
+.button-container {
+    margin: 20px 0;
+}
+
+.button-container .btn {
+    display: block;
+    margin: 0 auto;
+    padding: 8px 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: #7e151a;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+.button-container .btn:active {
+    background-color: black;
+}
+
+@media screen and (max-width: 1160px) {
+    .side-img {
+        padding-left: 25%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .left-bar {
+        width: 40%;
+    }
+    .right-bar {
+        width: 60%;
+    }
+    .side-img {
+        background-size: 37vw 100vh;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .side-img {
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .left-bar {
+        display: none;
+    }
+    .right-bar {
+        width: 100%;
+    }
+}

@@ -1,0 +1,11 @@
+.services__wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services__img-container {
+    width: 100%;
+    height: 50%;
+}

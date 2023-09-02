@@ -1,0 +1,138 @@
+.visit-booked {
+    display: flex;
+    width: 100%;
+    padding: 1rem 6rem;
+    /*align-items: center;*/
+    justify-content: center;
+    flex-direction: column;
+}
+
+.visit-booked__top-container {
+    display: flex;
+}
+
+.visit-booked__left-container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.visit-booked__left-heading {
+    font-size: 1.5rem;
+    color: #A8242B;
+    text-transform: capitalize;
+}
+
+.visit-booked__sub-heading {
+    font-size: 1rem;
+    color: #424242;
+}
+
+.visit-booked__list-container {
+    padding-left: 30px;
+}
+
+.visit-booked__list {
+    font-size: 1rem;
+    color: #424242;
+}
+
+.visit-booked__divider {
+    color: #E9BCBE;
+    height: 100%;
+}
+
+.visit-booked__right-container {
+    width: 60%;
+}
+
+.visit-booked__right-heading {
+    font-size: 1.5rem;
+    color: #A8242B;
+    text-align: center;
+}
+
+.visit-booked__details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.visit-booked__detail-wrapper {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.visit-booked__detail-heading {
+    color: #000000;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.visit-booked__detail {
+    color: #424242;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-left: 1rem;
+    text-transform: capitalize;
+}
+
+.visit-booked__desc {
+    font-size: 1rem;
+    color: #747474;
+    margin-left: 20px;
+}
+
+.visit-booked__bottom-container {
+    margin-top: 1rem;
+}
+
+.visit-booked__property-image {
+    width: 100%;
+    height: 15rem;
+}
+
+.visit-booked__property-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    margin-top: 1rem;
+}
+
+.visit-booked__property-logo {
+    height: 100%;
+}
+
+.visit-booked__property-heading {
+    color: #424242;
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+}
+
+.visit-booked__property-desc {
+    height: 100%;
+    /*white-space: nowrap;*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 0.5rem;
+}
+
+.visit-booked__buttons-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.visit-booked__button--primary {
+    padding: 0.5rem 2.5rem;
+}
+
+@media (max-width: 500px) {
+    .visit-booked {
+
+        padding: 1rem ;
+
+    }
+}

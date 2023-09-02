@@ -1,0 +1,2 @@
+
+export const SET_ACTIVE_STEPS = 'SET_ACTIVE_STEPS';

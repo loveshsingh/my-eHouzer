@@ -1,0 +1,164 @@
+/* Right Side Bar */
+
+
+.right-bar {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-left: 30px;
+}
+
+.cross span {
+    float: right;
+    font-size: 34px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.dot {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 8px;
+    background-color: black;
+    float: left;
+}
+.input-box {
+    max-width: 70%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.title h3 {
+    color: #ab4247;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.subtitle h3 {
+    text-align: left;
+    margin-bottom: 1.5rem;
+}
+
+.visit-type {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.visit-type> div {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    width: 120px;
+}
+
+
+.visit-type input[type='radio'] {
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    outline: none;
+    border: 1px solid #ab4247;
+    cursor: pointer;
+}
+
+.visit-type input[type='radio']:before {
+    content: '';
+    display: block;
+    width: 60%;
+    height: 60%;
+    margin: 22% auto;
+    border-radius: 50%;
+}
+
+.visit-type input[type="radio"]:checked:before {
+    background: #ab4247;
+
+}
+
+.visit-type label {
+    margin-left: 5px;
+}
+
+.visit-type input[type="radio"]:checked + label {
+    color: black;
+}
+
+.button-container {
+    margin: 1rem 0;
+}
+
+.button-container .btn {
+    display: block;
+    margin: 0 auto;
+    padding: 8px 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: #7e151a;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+.button-container .btn:active {
+    background-color: black;
+}
+
+@media screen and (max-width: 1160px) {
+    .side-img {
+        padding-left: 25%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .left-bar {
+        width: 40%;
+    }
+    .right-bar {
+        width: 60%;
+    }
+    .side-img {
+        background-size: 37vw 100vh;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .side-img {
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .left-bar {
+        display: none;
+    }
+    .right-bar {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .td, .th {
+        padding: 0.5rem;
+    }
+    .sunday{
+        padding: 0.5rem;
+    }
+    .input-box{
+        max-width: 100%;
+    }
+    .calender-box {
+        padding: 20px;
+    }
+    .visit-type> div {
+        margin: 10px;
+    }
+    .right-bar {
+        padding: 1rem
+    }
+}

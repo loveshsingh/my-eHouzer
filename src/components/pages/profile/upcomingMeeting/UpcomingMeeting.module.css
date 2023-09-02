@@ -1,0 +1,24 @@
+.upcoming-meeting {
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.upcoming-meeting__meetings-list {
+    width: 65%;
+}
+
+.upcoming-meeting__meeting-view {
+    width: 35%;
+}
+
+@media screen and (max-width: 800px) {
+    .upcoming-meeting__meetings-list {
+        display: none;
+    }
+    .upcoming-meeting__meeting-view {
+        display: none;
+    }
+}

@@ -1,0 +1,130 @@
+.config {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    /*grid-template-rows: repeat(3, 1fr);*/
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    width: 100%;
+    height: auto;
+    padding: 1rem 6rem;
+}
+
+.config__big-image {
+    grid-area: 1 / 1 / 4 / 2;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.config__image-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid #F1CBCE;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.config__short-images-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid #F1CBCE;
+    border-radius: 10px;
+    margin: 3rem 0;
+}
+
+.config__short-first {
+    /*grid-area: 1 / 2 / 2 / 3;*/
+    width: 50%;
+    height: 11rem;
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+.config__short-second {
+    grid-area: 2 / 2 / 3 / 3;
+    width: 100%;
+    height: 11rem;
+    border-radius: 20px;
+}
+
+.config__short-third {
+    grid-area: 3 / 2 / 4 / 3;
+    position: relative;
+    /*width: 100%;*/
+    /*height: 11rem;*/
+    /*background-color: green;*/
+    /*border-radius: 20px;*/
+}
+
+.config__short-third-image {
+    width: 100%;
+    height: 11rem;
+    border-radius: 20px;
+}
+
+.config__more-photos {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(6px);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.config__more-photos-text {
+    font-size: 20px;
+    font-weight: 500;
+    color: #747474;
+}
+
+.config__floor-img-container {
+    height: 25rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid #F1CBCE;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.config__floor-plane-img {
+    grid-area: 1 / 1 / 4 / 2;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.swiper-wrapper {
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    .config {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        height: auto;
+    }
+
+    .config__images-wrapper {
+        display: none;
+    }
+
+    .swiper-wrapper {
+        display: flex;
+        /*padding:1rem;*/
+    }
+
+    .swiper-image {
+        width: 100%;
+        height: 15rem;
+        margin-bottom: 2rem;
+    }
+}

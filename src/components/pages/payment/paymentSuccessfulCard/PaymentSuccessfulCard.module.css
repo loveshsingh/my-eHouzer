@@ -1,0 +1,28 @@
+.payment-successful__overview {
+    padding: 2rem 10rem;
+    margin-bottom: 5rem;
+}
+
+.payment-successful-overview__person-card {
+    margin: 2rem 0;
+}
+
+.payment-successful-text {
+    font-weight: 700;
+    font-size: 35px;
+    color: #424242;
+}
+@media screen and (max-width: 800px) {
+    .payment-successful__overview {
+        padding: 2rem 2rem;
+    }
+    .payment-successful-text {
+        font-size: 20px;
+        margin-top: 1rem;
+    }
+    .payment-successful__overview {
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 1rem;
+    }
+}

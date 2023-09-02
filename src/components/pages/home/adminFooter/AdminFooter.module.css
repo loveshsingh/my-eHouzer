@@ -1,0 +1,12 @@
+.admin__footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: #B0474C;*/
+    background-color: var(--admin-footer-bg-color);
+    color: white;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: inherit;
+}

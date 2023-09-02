@@ -1,0 +1,129 @@
+
+
+.table-wrapper {
+    /*width: 55%;*/
+    overflow: auto;
+    border: 1px solid #EFEBF9;
+}
+
+.table {
+    width: 100%;
+    /*text-align: center;*/
+    border-spacing: 0;
+}
+
+.table-heading-container {
+    /*background-color: rgba(236, 72, 80, 0.93);*/
+    background: linear-gradient(180deg, #E04E55 0%, #761217 100%);
+}
+
+.admin__section-button-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /*width: 55%;*/
+}
+.excel--button-wrapper{
+    /*margin: 1rem 0 0 0 ;*/
+    margin-top: 1rem ;
+}
+.table-tr {
+    height: 3rem;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.table-th {
+    /*padding: 1.5rem;*/
+    height: 3rem;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: left;
+    padding-left: 1rem;
+}
+
+.table-td {
+    padding-left: 1rem;
+    border: 1px solid #EFEBF9;
+}
+
+.admin__section-main-container {
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+
+.admin__section-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 40%;
+    justify-content: center;
+}
+.admin__chart-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /*width: 45%;*/
+    height: 100%;
+    background-color: white;
+    padding: 1rem 1rem;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    /*box-shadow:  0 0 50px 0 grey;*/
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.admin__section-heading {
+    /*margin: 1rem 0 0 0;*/
+    margin-top: 1rem
+}
+
+.download__tooltip {
+    position: absolute;
+    top: 45px;
+    border: 1px solid #727070;
+    background-color: white;
+    padding: 0.5rem 0.7rem;
+    font-weight: 500;
+}
+
+.admin__section-heading-table-wrapper{
+    display:flex;
+    flex-direction: column;
+    width:60%;
+    background-color: white;
+    padding: 1rem;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    /*box-shadow:  0 0 50px 0 grey;*/
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+/*Start Mobile responsive CSS*/
+@media screen and (max-width: 800px) {
+    .table-wrapper {
+        width: 100%;
+    }
+
+    .admin__section-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .admin__chart-container {
+        width: 100%;
+        margin: 2rem 0;
+    }
+    .admin__section-button-wrapper{
+        width: 100%;
+    }
+    .download__tooltip {
+        right:25px;
+    }
+
+}
+/*End Mobile responsive CSS*/
+

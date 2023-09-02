@@ -1,0 +1,29 @@
+.properties-wrapper {
+    display: flex;
+    align-items: center;
+    /*padding: 0 1rem;*/
+    position: relative;
+    /*margin: 0 50px;*/
+}
+
+.properties__button-prev {
+    width: 3rem;
+    height: 3rem;
+}
+
+.properties__button-next {
+    width: 3rem;
+    height: 3rem;
+}
+
+@media screen and (max-width: 800px) {
+    .properties__button-prev {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .properties__button-next {
+        width: 2rem;
+        height: 2rem;
+    }
+}

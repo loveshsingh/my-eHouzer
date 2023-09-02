@@ -1,0 +1,114 @@
+.customer__popup-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.customer__popup-content {
+    width: 80%;
+    /*height: 60%;*/
+    height: auto;
+    background: #FFFFFF;
+    /*overflow: auto;*/
+}
+
+.customer__table-wrapper {
+    height: 400px;
+    width: auto;
+    overflow-y: auto;
+    position: relative;
+    border: 1px solid #EFEBF9;
+    margin: 0 1rem;
+    border-radius: 8px;
+}
+
+.customer__table {
+    width: 100%;
+    border-spacing: 0;
+    border-bottom: 1px solid #EFEBF9;
+}
+.customer__table-even-row{
+    background-color: var(--table-body-even-row-bg-color);
+}
+
+.customer__table-heading-container {
+    background: var(--table-header-bg-color);
+    position: sticky;
+    top: 0;
+}
+
+.customer__table-tr {
+    height: 3rem;
+    font-weight: 500;
+    font-size: 0.875rem;
+}
+
+
+.customer__table-th {
+    height: 3rem;
+    font-weight: 600;
+    color: var(--table-header-text-color);
+    text-align: left;
+    padding-left: 1rem;
+    font-size: .75rem;
+    text-transform: uppercase;
+}
+
+.customer__table-td {
+    padding-left: 1rem;
+    border-right: 1px solid #EFEBF9;
+    /*height: 1rem;*/
+}
+.customer__table-td-center{
+    border-right: 1px solid #EFEBF9;
+    text-align: center;
+}
+
+.customer__popup-header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 1rem;
+}
+
+.customer__popup-header-title {
+    /*font-size: 23px;*/
+    font-size: 1.3rem;
+    flex-grow: 1;
+    color:var(--card-heading-text-color);
+}
+
+.customer__popup-header-close {
+    /*flex-grow: 1;*/
+    align-self: end;
+    cursor: pointer;
+    justify-content: flex-end;
+    display: flex;
+    padding: 1rem 1rem 0 0;
+}
+
+.download__tooltip {
+    position: absolute;
+    top: 45px;
+    right: 25px;
+    border: 1px solid #727070;
+    background-color: white;
+    padding: 0.5rem 0.7rem;
+    font-weight: 500;
+}
+.table-thead {
+    position: sticky;
+    top: 0;
+    letter-spacing: .025em;
+}

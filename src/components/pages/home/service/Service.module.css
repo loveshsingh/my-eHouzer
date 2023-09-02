@@ -1,0 +1,33 @@
+.service{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 6rem;
+    height: 12rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.service__icon-wrapper{
+    height: 6.25rem;
+    width: 6.25rem;
+    background: #BE6E73;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.24);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*.service__icon{*/
+/*    height: fit-content;*/
+/*    font-size: 2rem !important;*/
+/*    color: #fff;*/
+/*}*/
+
+.service__text{
+    text-align: center;
+    color: #424242;
+    font-weight: 500
+}

@@ -1,0 +1,138 @@
+
+
+.table-wrapper {
+    /*width: 55%;*/
+    overflow: auto;
+    border: 1px solid #EFEBF9;
+    border-radius:8px ;
+}
+
+.table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+.table-heading-container {
+    background: var(--table-header-bg-color);
+}
+
+.excel--button-wrapper{
+    /*margin: 0 0 0 0;*/
+}
+
+.admin__section-button-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /*width: 55%;*/
+}
+
+.table-tr {
+    height: 3.5rem;
+    font-weight: 500;
+    font-size: 0.875rem;
+}
+
+.table-th {
+    /*padding: 1.5rem;*/
+    height: 3rem;
+    font-weight: 600;
+    color: var(--table-header-text-color);
+    text-align: left;
+    padding-left: 1rem;
+    font-size: .75rem;
+    text-transform: uppercase;
+}
+
+.table-td {
+    padding-left: 1rem;
+    border-right: 1px solid #EFEBF9;
+    height: 1rem;
+}
+
+.admin__section-main-container {
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+
+.admin__section-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 40%;
+    justify-content: center;
+}
+.admin__chart-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /*width: 45%;*/
+    height: 100%;
+    background-color: var(--chart-bg-color);
+    padding: 1rem 1rem;
+    border: 1px solid lightgrey;
+    border-radius: 0.5rem;
+    /*box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;*/
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.05);
+}
+
+.admin__section-heading {
+    font-size: 1.3rem;
+    margin-bottom: 1.8rem;
+    color:var(--card-heading-text-color);
+}
+
+.download__tooltip {
+    position: absolute;
+    top: 45px;
+    border: 1px solid #727070;
+    background-color: white;
+    padding: 0.5rem 0.7rem;
+    font-weight: 500;
+}
+.admin__section-heading-table-wrapper{
+    display:flex;
+    flex-direction: column;
+    width:60%;
+    background-color: var(--card-bg-color);
+    padding: 1.5rem 1.5rem 2rem;
+    border: 1px solid lightgrey;
+    border-radius: 0.5rem;
+    /*box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;*/
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.05);
+}
+
+.table-thead{
+    position: sticky;
+    top: 0;
+    letter-spacing: .025em;
+}
+.table-even-row{
+    background-color: var(--table-body-even-row-bg-color);
+}
+/*Start Mobile responsive CSS*/
+@media screen and (max-width: 800px) {
+    .table-wrapper {
+        width: 100%;
+    }
+
+    .admin__section-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .admin__chart-container {
+        width: 100%;
+        margin: 2rem 0;
+    }
+    .admin__section-button-wrapper{
+        width: 100%;
+    }
+    .download__tooltip {
+        right:25px;
+    }
+
+}
+/*End Mobile responsive CSS*/

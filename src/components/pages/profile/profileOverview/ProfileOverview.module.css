@@ -1,0 +1,196 @@
+.profile-overview {
+    width: 100%;
+    padding: 1rem 6rem;
+}
+
+.profile-overview__table {
+    width: 100%;
+    margin-top: 0.5rem;
+    border-collapse: collapse;
+}
+
+.profile-overview__table-row {
+    background-color: #9A5255;
+    color: white;
+}
+
+.profile-overview__table-header {
+    padding: 0.3rem;
+    border-right: 1px solid #BC7E81;
+}
+
+.profile-overview__table-heading {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #424242;
+}
+
+.profile-overview__table-td {
+    min-width: 150px;
+    text-align: center;
+    border-bottom: 1px solid #EFEBF9;
+}
+
+.profile-overview__table-no-data {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 2rem;
+}
+
+
+.profile-overview__progress-tracker-wrapper,
+.profile-overview__personal-details-wrapper {
+    width: 100%;
+    height: 10rem;
+    border: 1px solid #BE6E73;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+.profile-overview__next-visit-wrapper {
+    height: 11rem;
+    width: 100%;
+    border: 1px solid #BE6E73;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+.profile-overview__personal-details-wrapper {
+    position: relative;
+}
+
+.profile-overview__progress-tracker-heading-container,
+.profile-overview__next-visit-heading-container,
+.profile-overview__personal-details-heading-container {
+    width: 100%;
+    height: 8.5rem;
+    padding: 1rem;
+}
+
+.profile-overview__next-visit-heading-container {
+    height: 9.5rem;
+}
+
+.profile-overview__next-visit-card-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.profile-overview__progress-tracker-heading,
+.profile-overview__next-visit-heading,
+.profile-overview__personal-details-heading {
+    font-size: 1rem;
+    color: #424242;
+    /*margin-bottom: 1rem;*/
+}
+
+.profile-overview__progress-tracker-view-all,
+.profile-overview__next-visit-view-all,
+.profile-overview__personal-details-view-all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 1.5rem;
+    background: #BE6E73;
+    border: 1px solid #BE6E73;
+    border-radius: 0 0 10px 10px;
+    cursor: pointer;
+}
+
+.profile-overview__progress-tracker-view-all-heading,
+.profile-overview__next-visit-view-all-heading,
+.profile-overview__personal-details-view-all-heading {
+    color: white;
+    cursor: pointer;
+}
+
+.profile-overview__inputs-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 2.5rem;
+}
+
+.profile-overview__input-container {
+
+}
+
+.profile-overview__input-label {
+    font-size: 0.9rem;
+    color: #747474;
+}
+
+.profile-overview__input,
+.profile-overview__input--read-only {
+    margin-top: 0rem;
+    outline: none;
+    margin-bottom: 0.5rem;
+}
+
+.profile-overview__input--read-only {
+    border: none;
+}
+
+.profile-overview__edit-icon {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1rem !important;
+    color: #BE6E73;
+    cursor: pointer;
+}
+
+.profile__buttons-wrapper {
+    position: absolute;
+    top: 0.8rem;
+    right: 1rem;
+}
+
+.profile__save-button--primary {
+    font-size: 0.8rem;
+    cursor: pointer;
+    padding: 6px 12px;
+    margin-left: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+    .profile-overview {
+        padding: 1rem;
+    }
+
+    .profile-overview__personal-details-wrapper {
+        height: 20rem;
+    }
+
+    .profile-overview__next-visit-wrapper {
+        height: auto;
+        width: 100%;
+        border: 1px solid #BE6E73;
+        border-radius: 10px;
+        margin-top: 1rem;
+    }
+
+    .profile-overview__next-visit-card-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .profile-overview__progress-tracker-heading,
+    .profile-overview__next-visit-heading,
+    .profile-overview__personal-details-heading {
+        margin-bottom: 1rem;
+    }
+
+    .profile-overview__next-visit-heading-container {
+        width: 100%;
+        height: auto;
+        padding: 1rem;
+        overflow-x: auto;
+    }
+}

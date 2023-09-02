@@ -1,0 +1,10 @@
+.my-visits {
+    width: 100%;
+    padding: 1rem 6rem;
+}
+
+@media screen and (max-width: 800px) {
+    .my-visits {
+        padding: 1rem;
+    }
+}

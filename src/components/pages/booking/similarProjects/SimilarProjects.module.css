@@ -1,0 +1,11 @@
+.similar-projects {
+    padding: 1rem 3rem;
+    margin-bottom: 1rem;
+}
+
+.similar-projects__heading {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #424242;
+    padding: 1rem 2rem;
+}

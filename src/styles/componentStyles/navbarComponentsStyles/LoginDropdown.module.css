@@ -1,0 +1,104 @@
+.login-button-wrapper {
+    position: relative;
+}
+
+.login-button-wrapper__button {
+    padding: 8px 22px;
+}
+
+.login-button-wrapper__dropdown--show {
+    position: absolute;
+    width: 21rem;
+    height: 16rem;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid #BE6E73;
+    bottom: -18rem;
+    right: 0;
+    padding: 1rem;
+}
+
+.login-button-wrapper__dropdown--hide {
+    display: none;
+}
+
+.login-button-wrapper__user-button {
+
+}
+
+.login-button-wrapper__dropdown-header {
+    display: flex;
+    align-items: center;
+}
+
+.login-button-wrapper__dropdown-user-image-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+    background: linear-gradient(180deg, #E04E55 0%, #761217 100%);
+    cursor: pointer;
+}
+
+.login-button-wrapper__dropdown-user-image-text {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.login-button-wrapper__dropdown-user-image {
+
+}
+
+.login-button-wrapper__dropdown-details {
+    margin-left: 1rem;
+}
+
+.login-button-wrapper__dropdown-user-text {
+    font-weight: 600;
+    color: #424242;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+.login-button-wrapper__dropdown-user-email {
+    font-weight: 500;
+    color: #A3A3A3;
+    font-size: 0.8rem;
+}
+
+.login-button-wrapper__dropdown-list-container {
+    margin-top: 2rem;
+    padding-left: 0;
+}
+
+.login-button-wrapper__dropdown-list {
+    list-style-type: none;
+    font-weight: 600;
+    color: #424242;
+    margin-bottom: 1rem;
+    display: flex;
+    cursor: pointer;
+}
+
+/*.login-button-wrapper__dropdown-list-icon {*/
+/*    color: #B0474C;*/
+/*    margin-right: 1rem;*/
+/*}*/
+
+@media screen and (max-width: 800px) {
+    .login-button-wrapper__dropdown--show {
+        width: 18rem;
+    }
+    .login-button-wrapper__button {
+        padding: 8px 14px;
+        font-size: 0.8rem;
+    }
+    .login-button-wrapper__dropdown-user-image-wrapper {
+        width: 2rem;
+        height: 2rem;
+    }
+}

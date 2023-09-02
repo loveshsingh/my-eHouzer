@@ -1,0 +1,25 @@
+.today-meeting {
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.today-meeting__meetings-list {
+    width: 65%;
+}
+
+.today-meeting__meeting-view {
+    width: 35%;
+}
+
+@media screen and (max-width: 800px) {
+    .today-meeting__meetings-list {
+        display: none;
+    }
+
+    .today-meeting__meeting-view {
+        display: none;
+    }
+}

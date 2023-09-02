@@ -1,0 +1,284 @@
+.booked-card {
+    position: relative;
+    height: 30rem;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.booked-card__image {
+    width: 100%;
+    height: 55%;
+    cursor: pointer;
+}
+
+.booked-card__details-wrapper {
+    height: 35%;
+    background: #FEF6F6;
+}
+
+.booked-card__details-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+
+.booked-card__details {
+    display: flex;
+}
+
+.booked-card__logo {
+    height: 4rem;
+    width: 4rem;
+}
+
+.booked-card__prop-name-container {
+    margin-left: 1rem;
+}
+
+.booked-card__prop-name {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #424242;
+}
+
+.booked-card__prop-loc {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #424242;
+    margin-top: 0.2rem;
+}
+
+.booked-card__status-container {
+    display: flex;
+    align-items: center;
+    align-self: end;
+    margin-left: 0;
+}
+
+.booked-card__construction-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.booked-card__construction-icon {
+    font-size: 1rem !important;
+    color: #BE6E73;
+}
+
+.booked-card__construction-text {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #424242;
+    margin: 0.5rem;
+}
+
+.booked-card__assured-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.booked-card__assured-icon {
+    font-size: 1rem !important;
+    color: #BE6E73;
+    margin-left: 1rem;
+}
+
+.booked-card__assured-text {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #424242;
+    margin-left: 0.5rem;
+}
+
+.booked-card__price-details-container {
+    display: flex;
+    align-items: center;
+}
+
+.booked-card__price-wrapper {
+    padding: 0.5rem 1.5rem;
+}
+
+.booked-card__price-heading {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #747474;
+}
+
+.booked-card__price-value {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #B0474C;
+}
+
+.booked-card__configuration-wrapper {
+    margin-left: 1rem;
+}
+
+.booked-card__configuration-heading {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #747474;
+}
+
+.booked-card__configuration-value {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #B0474C;
+}
+
+.booked-card__button-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10%;
+    background: #B0474C;
+    border-radius: 0 0 20px 20px;
+    padding: 10px 0;
+}
+
+.booked-card__book-visit-button {
+    padding: 0.4rem 2rem;
+    background-color: white;
+}
+
+.booked-card__book-button {
+    padding: 0.4rem 2rem;
+    background-color: white;
+}
+
+.booked-card__agreement-button {
+    padding: 0.4rem 2rem;
+    background-color: white;
+}
+
+.booked-card__finance-button {
+    padding: 0.4rem 2rem;
+    background-color: white;
+}
+
+.booked-card__stump-duty-button {
+    padding: 0.4rem 2rem;
+    background-color: white;
+}
+
+.booked-card__fav-icon-wrapper {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 100%;
+    background-color: white;
+    top: 0.5rem;
+    right: 0.5rem;
+    cursor: pointer;
+}
+
+.booked-card__fav-icon {
+    font-size: 1rem !important;
+    color: #BE6E73;
+}
+
+.booked-card__details-button-wrapper {
+
+}
+
+@media screen and (max-width: 700px) {
+
+    .booked-card {
+
+        height: 100%;
+        width: 100%;
+        position: relative;
+
+    }
+
+    .booked-card__image {
+        /*position:absolute;*/
+        /*height: 200px;*/
+        /*z-index: 0;*/
+        display: block;
+        height: auto;
+        margin: 0 auto;
+
+    }
+
+    .booked-card__details-button-wrapper {
+
+        /*position:absolute;*/
+        /*top:100px;*/
+        position: absolute;
+        top: 40%;
+        z-index: 1;
+        background-color: white;
+        border: 1px solid darkred;
+        border-radius: 20px;
+        /*height: 500px;*/
+    }
+
+    .booked-card__details-wrapper {
+
+        /*z-index: 1;*/
+        /*margin-top: -100px;*/
+        /*top:100px;*/
+        border-radius: 20px;
+        background-color: white;
+    }
+
+    .booked-card__details-container {
+        padding: 24px 24px 0 24px;
+        flex-wrap: wrap;
+    }
+
+    .booked-card__details {
+        margin-bottom: 10px;
+    }
+
+    .booked-card__status-container {
+        margin-bottom: 10px;
+    }
+
+    .booked-card__price-details-container {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        padding: 24px;
+        padding-top: 0px;
+    }
+
+    .booked-card__configuration-wrapper {
+        margin-left: 0;
+    }
+
+    .booked-card__price-wrapper {
+        padding-left: 0;
+    }
+
+    .booked-card__button-wrapper {
+        flex-wrap: wrap;
+        height: 150px;
+        padding: 10px;
+        background-color: white;
+        justify-content: flex-start;
+    }
+
+    .button-margin-right {
+        margin-right: 20px;
+
+    }
+
+
+}
+
+@media screen and (max-width: 550px) {
+    .booked-card {
+        margin-bottom: 23rem;
+    }
+    .booked-card__details-button-wrapper {
+        top: 80%;
+    }
+}

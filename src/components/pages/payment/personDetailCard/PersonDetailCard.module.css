@@ -1,0 +1,103 @@
+.person-detail {
+    /*width: 100;*/
+    height: 18rem;
+    border: 1px solid #BE6E73;
+    border-radius: 10px;
+}
+
+.person-detail__wrapper {
+    display: flex;
+    align-items: flex-start;
+    padding: 2rem 3rem;
+    height: 14rem;
+}
+
+.person-detail__container {
+    width: 88%;
+}
+
+.person-detail__salutation {
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: #747474;
+    text-align: left;
+}
+
+.person-detail__person-name {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #424242;
+    text-align: left;
+}
+
+.person-detail__property-detail {
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: #747474;
+    text-align: left;
+    width: 70%;
+}
+
+.person-detail__date-wrapper {
+}
+
+.person-detail__date-heading {
+    font-weight: 500;
+    font-size: 1rem;
+    color: #747474;
+    text-align: left;
+}
+
+.person-detail__date {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #424242;
+    text-align: left;
+    margin-top: 0.5rem;
+}
+
+.person-detail__amount-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4rem;
+    width: 100%;
+    padding: 0 2rem;
+    border-radius: 0 0 10px 10px;
+}
+
+.person-detail__amount-heading {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+
+.person-detail__amount {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+@media screen and (max-width: 800px) {
+    .person-detail {
+        height: auto;
+    }
+    .person-detail__wrapper {
+        height: auto;
+    }
+    .person-detail__wrapper {
+        flex-direction: column;
+        padding: 1rem 1rem 2rem;
+    }
+    .person-detail__container {
+        width: 100%;
+    }
+    .person-detail__property-detail {
+        width: auto;
+    }
+    .person-detail__date-wrapper {
+        margin-top: 1rem;
+    }
+    .person-detail__amount-wrapper {
+        padding: 0 1rem;
+    }
+}

@@ -1,0 +1,9 @@
+.fast-selling-properties {
+    padding: 2rem 3rem;
+}
+
+@media screen and (max-width: 800px) {
+    .fast-selling-properties {
+        padding: 0;
+    }
+}

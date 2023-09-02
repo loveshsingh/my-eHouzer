@@ -1,0 +1,119 @@
+.configuration {
+    font-size: 10px;
+}
+
+.configuration__description {
+    display: flex;
+    border: 1px solid #F1CBCE;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+
+.configuration__description-header {
+    font-size: 2em;
+    font-weight: 600;
+    color: #424242;
+    margin-bottom: 1rem;
+}
+
+.configuration__details-container {
+    display: flex;
+    border: 1px solid #F1CBCE;
+    border-radius: 10px;
+    flex-direction: row;
+    margin: 1rem 0;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+.configuration__details-container-selected {
+    display: flex;
+    border: 1px solid #F1CBCE;
+    border-radius: 10px;
+    flex-direction: row;
+    margin: 1rem 0;
+    justify-content: center;
+    padding: 1rem 0;
+    background: #FDECED;
+}
+
+.configuration__details-container:hover {
+    display: flex;
+    border: 1px solid #F1CBCE;
+    border-radius: 10px;
+    flex-direction: row;
+    margin: 1rem 0;
+    justify-content: center;
+    padding: 1rem 0;
+    background: #FDECED;
+}
+
+.configuration__details-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+}
+
+.configuration__diversion-line {
+    border-right: 1px solid #E9BCBE;
+}
+
+.configuration__description-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.configuration__description-date {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.configuration__description-big-size {
+    font-size: 18px;
+    color: #424242;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.configuration__description-small-size {
+    color: #747474;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.configuration__details-big-size {
+    font-size: 2em;
+    font-weight: 600;
+    color: #424242;
+    margin-bottom: 0.5rem;
+}
+
+.configuration__details-small-size {
+    font-weight: 500;
+    font-size: 1em;
+    color: #747474;
+}
+
+.configuration__book-now-btn {
+    padding: 0.5rem 4rem;
+}
+.configuration__book-now-btn-disable {
+    padding: 0.5rem 4rem;
+    opacity: 0.6;
+    cursor: no-drop;
+}
+
+.configuration__btn-container {
+    text-align: end;
+    margin-top: 2rem;
+}

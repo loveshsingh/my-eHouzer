@@ -1,0 +1,36 @@
+.image__carousel-img-container {
+    position: relative;
+    margin: 1rem 0;
+    height: 10rem;
+    width: 21rem;
+}
+
+.image__carousel-img {
+    border-radius: 10px;
+
+}
+
+.image__carousel-close-icon {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1%;
+    height: 1%;
+    background: rgba(30, 25, 25, 0.5);
+    color: #ffffff;
+    z-index: 999;
+    position: fixed;
+    top: 8%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    border: 1px solid #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.image__carousel-close-icon:hover {
+    background: rgba(10, 8, 8, 0.5);
+    color: #802424;
+}

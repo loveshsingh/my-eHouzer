@@ -1,0 +1,154 @@
+.agent__main-container {
+    display: flex;
+    flex-direction: column;
+    /*margin: 1.5rem 2rem;*/
+    height: 100%;
+    overflow-y: auto;
+}
+
+.agent__content-container{
+    margin: 1.5rem 2rem;
+}
+
+.common-navbar{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.agent__table-wrapper{
+    max-height: 500px;
+    width: 100%;
+    overflow: auto;
+    min-height: 20rem;
+    border: 1px solid #EFEBF9;
+    border-radius: 8px;
+}
+
+.agent__table-download-btn-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.agent__table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+.agent__table-heading-container {
+    background: var(--table-header-bg-color);
+}
+
+.agent__table-tr {
+    height: 3rem;
+    font-weight: 500;
+    /*font-size: 16px;*/
+    font-size: 0.875rem;
+
+}
+.agent__table-th {
+    /*padding: 1rem;*/
+    height: 3rem;
+    font-weight: 600;
+    /*font-size: 18px;*/
+    color: var(--table-header-text-color);
+    text-align: left;
+    padding-left: 1rem;
+    font-size: .75rem;
+    text-transform: uppercase;
+}
+.agent__table-td {
+    padding-left: 1rem;
+    border-right: 1px solid #EFEBF9;
+}
+.agent__table-td-center{
+    text-align: center;
+    border-right: 1px solid #EFEBF9;
+}
+
+.agent__select_container{
+    margin-bottom: 1rem;
+}
+
+.agent__table-input {
+    padding: 1rem;
+    height: 100%;
+    width: 100%;
+    border: none;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.table-select{
+    height: 100%;
+    width: 250px;
+    padding: 0.3rem;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid currentColor;
+    border-radius: 10px;
+
+}
+.agent__table-select {
+    border: none;
+    height: 100%;
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.agent__container-heading {
+    /*font-size: 23px;*/
+    font-size: 1.3rem;
+    /*margin: 0 0 1.8rem 0;*/
+    margin-bottom: 1.8rem;
+    color:var(--card-heading-text-color);
+}
+
+.agent__table-btn-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+
+.agent__table-send-button-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+
+.agent__table-send-button {
+    padding: 0.5rem 1.5rem;
+}
+
+.download__tooltip {
+    position: absolute;
+    top: 45px;
+    right:25px;
+    border: 1px solid #727070;
+    background-color: white;
+    padding: 0.5rem 0.7rem;
+    font-weight: 500;
+}
+.agent__heading-table-wrapper{
+    min-height: 25rem;
+    background-color: var(--card-bg-color);
+    margin-top: 1rem;
+    padding: 1.5rem 1.5rem 2rem;
+    margin-bottom: 3rem;
+    border: 1px solid lightgrey;
+    border-radius: 0.5rem;
+    /*box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;*/
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.05);
+}
+.agent__table-thead{
+    position: sticky;
+    top: 0;
+    letter-spacing: .025em;
+}
+.agent__table-even-row{
+    background-color: var(--table-body-even-row-bg-color);
+}

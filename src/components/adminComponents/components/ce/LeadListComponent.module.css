@@ -1,0 +1,124 @@
+.lead__main-container {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem 2rem;
+}
+
+.lead__table-section-container {
+    margin-bottom: 3rem;
+}
+
+.lead__section-heading{
+    /*font-size: 23px;*/
+    font-size: 1.3rem;
+    /*margin: 1rem 0;*/
+    /*margin: 0 0 1.8rem 0;*/
+    margin-bottom: 1.8rem;
+    color:var(--card-heading-text-color);
+}
+.lead__table-even-row{
+    background-color: var(--table-body-even-row-bg-color);
+}
+
+.lead__table-wrapper {
+    width: 100%;
+    max-height: 400px;
+    overflow: auto;
+    border: 1px solid #EFEBF9;
+    border-radius: 8px;
+}
+
+.lead__table {
+    width: 100%;
+    /*height: 500px!important;*/
+    border-spacing: 0;
+}
+
+.lead__table-heading-container {
+    /*background-color: rgba(236, 72, 80, 0.93);*/
+    background: var(--table-header-bg-color);
+}
+
+.lead__table-tr {
+    height: 3rem;
+    font-weight: 500;
+    /*font-size: 16px;*/
+    font-size: 0.875rem;
+}
+/*.lead__table-tr:hover {*/
+/*    cursor: pointer;*/
+/*    background-color: #f0f0f0;*/
+/*}*/
+
+.lead__table-th {
+    /*padding: 1.5rem;*/
+    height:3rem;
+    font-weight: 600;
+    /*font-size: 18px;*/
+    color: var(--table-header-text-color);
+    text-align: left;
+    padding-left: 1rem;
+    font-size: .75rem;
+    text-transform: uppercase;
+}
+
+.lead__table-td {
+    padding-left: 1rem;
+    border-right: 1px solid #EFEBF9;
+}
+.lead__table-td-center{
+    text-align: center;
+    border-right: 1px solid #EFEBF9;
+}
+
+.lead__table-heading-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.lead__builder-table-btn-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.lead__table-send-button-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+
+.lead__table-send-button {
+    padding: 0.5rem 1.5rem;
+    background-color:var(--dashboard-btn-bg-color);
+    color: var(--dashboard-btn-text-color);
+    font-weight: 500;
+}
+
+.lead__table-thead {
+    position: sticky;
+    top: 0;
+    letter-spacing: .025em;
+}
+
+.download__tooltip {
+    position: absolute;
+    top: 45px;
+    right:25px;
+    border: 1px solid #727070;
+    background-color: white;
+    padding: 0.5rem 0.7rem;
+    font-weight: 500;
+}
+.lead__heading-table-wrapper{
+    background-color: var(--card-bg-color);
+    /*margin-top: 1rem;*/
+    padding: 1.5rem 1.5rem 2rem;
+    margin-bottom: 1rem;
+    border: 1px solid lightgrey;
+    border-radius: 0.5rem;
+    /*box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;*/
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.05);
+}
+

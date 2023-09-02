@@ -1,0 +1,155 @@
+.floor-plan {
+    padding: 1rem 6rem;
+}
+
+.floor-plan__heading {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #424242;
+    margin: 0;
+}
+
+.floor-plan__rooms-wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.floor-plan__rooms {
+    width: 7rem;
+    height: 2.3rem;
+    /*background-color: #C16060;*/
+    border: 1px solid #C16060;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-right: 2rem;
+    color: #C16060;
+}
+
+.floor-plan__rooms-text {
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.floor-plan__rooms-active {
+    color: white;
+    background-color: #C16060;
+}
+
+.floor-plan__rooms-size-wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.floor-plan__rooms-size {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 1.5rem;
+    cursor: pointer;
+}
+
+.floor-plan__rooms-size-text {
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #747474;
+    padding-bottom: 0.5rem;
+}
+
+.floor-plan__rooms-size-indicator {
+    width: 80%;
+    height: 1px;
+    background-color: #BE6E73;
+}
+
+.floor-plan__rooms-size-active {
+    color: #BE6E73;
+}
+
+.floor-plan__image {
+    width: 100%;
+    height: 500px;
+    margin-top: 2rem;
+}
+
+.floor-plan__property-header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 2rem;
+}
+
+.floor-plan__property-logo {
+    width: 3rem;
+}
+
+.floor-plan__property-heading {
+    font-weight: 600;
+    font-size: 24px;
+    color: #424242;
+    margin: 0 1rem;
+}
+
+.floor-plan__tag-wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.floor-plan__tag {
+    min-width: 8rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FAECEC;
+    border-radius: 8px;
+    margin-right: 1rem;
+    padding: 0 1rem;
+}
+
+.floor-plan__tag-text {
+    font-weight: 500;
+    font-size: 18px;
+    color: #B0474C;
+}
+
+
+.floor-plan__property-details {
+    font-weight: 500;
+    font-size: 14px;
+    color: #747474;
+    margin-top: 1rem;
+    width: 80%;
+}
+
+.floor-plan__properties-button {
+    cursor: pointer;
+    width: 20rem;
+    height: 2.5rem;
+    color: white;
+    background-color: #C16060;
+    border-radius: 8px;
+    margin-top: 1rem;
+    border: none;
+}
+
+.floor-plan__properties-button:hover {
+    background-color: rgba(193, 96, 96, 0.6);
+}
+@media screen and (max-width: 800px) {
+    .floor-plan{
+        padding:1rem;
+    }
+    .floor-plan__property-details {
+        font-weight: 500;
+        font-size: 14px;
+        color: #747474;
+        margin-top: 1rem;
+        width: 100%;
+    }
+}

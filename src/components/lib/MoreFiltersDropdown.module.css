@@ -1,0 +1,38 @@
+.filters-dropdown {
+    position: absolute;
+    width: 40rem;
+    height: 25rem;
+    background-color: white;
+    top: 2rem;
+    right: 0;
+    z-index: 1;
+    border-radius: 0.9rem;
+    border: 1px solid #BE6E73;
+    border-right-width: 0;
+}
+
+@media screen and (max-width: 800px) {
+    .filters-dropdown{
+        width: 21rem;
+    }
+}
+@media screen and (max-width: 720px) {
+    .filters-dropdown{
+        left: 0;
+    }
+}
+@media screen and (max-width: 520px) {
+    .filters-dropdown{
+        left: -150px;
+    }
+}
+@media screen and (max-width: 4670px) {
+    .filters-dropdown{
+        left: auto;
+    }
+}
+@media screen and (max-width: 425px) {
+    .filters-dropdown{
+        left: -10px;
+    }
+}

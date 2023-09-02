@@ -1,0 +1,211 @@
+/**
+ https://www.color-name.com/hex/020e5b Colors naming given by
+ look for AppColors.js for colors
+ */
+:root {
+    --primary-color: #9A5255;
+    --sonic-silver: #747474;
+    --chinese-silver: #C7C7C7;
+    --english-red: #B0474C;
+    --white: #ffffff;
+    --black: #000000;
+    --rose-wood: #70080D;
+    --jasper: #D03C43;
+    --arsenic: #424242;
+    --rose-gold: #BE6E73;
+    --parrot-pink: #E3999D;
+    --sweet-brown: #A2373D;
+    --gray: #B9B9B9;
+    --success--green: #31C43F;
+    --dark-charcoal: #333333;
+    --raisin-black: #252323;
+    --light-carmine-pink: #E8696F;
+    --anti-flash-white: #F0F0F0;
+    --cultured: #F5F5F5;
+    --fire-opal: #E45058;
+    --philippine-gray: #8C8C8C;
+    --dark-spring-green: #107C41;
+    --blue: #0000FF;
+
+
+    /*module colors*/
+    --main-section-bg-color: var(--cultured);
+    --card-heading-text-color: var(--raisin-black);
+    --table-header-bg-color: var(--light-carmine-pink);
+    --table-header-text-color: var(--white);
+    --table-row-text-color: var(--dark-charcoal);
+    --table-body-even-row-bg-color: var(--anti-flash-white);
+    --table-body-even-row-bg-hover-color: var(--chinese-silver);
+    --admin-footer-bg-color: var(--fire-opal);
+    --side-drawer-bg-color: var(--white);
+    /*--side-drawer-text-color: var(--philippine-gray);*/
+    --side-drawer-item-color:var(--philippine-gray);
+    /*--side-drawer-icon-color:var(--philippine-gray);*/
+    --side-drawer-selected-item-color: var(--fire-opal);
+    /*--side-drawer-selected-item-text-color: var(--fire-opal);*/
+    /*--side-drawer-selected-item-icon-color: var(--fire-opal);*/
+    --side-drawer-item-hover-color: var(--anti-flash-white);
+    --dashboard-btn-bg-color: var(--fire-opal);
+    --dashboard-btn-text-color: var(--white);
+    --dashboard-btn-border-color: var(--fire-opal);
+    /*--excel-icon-color: var(--dark-spring-green);*/
+    --current-breadcrumb-color: var(--philippine-gray);
+    --hover-breadcrumb-color: var(--blue);
+    --breadcrumb-background-color: var(--white);
+    --card-bg-color: var(--white);
+    --pagination-bg-color:var(--white);
+    --chart-bg-color: var(--white);
+    /*--prev-btn-text-color: default*/
+    /*--next-btn-text-color: default*/
+    /*--prev-btn-bg-color: default*/
+    /*--next-btn-bg-color: default*/
+
+}
+
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    /*font-family: Inter, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;*/
+    /*font-family: Roboto,sans-serif;*/
+    font-family: Open Sans, sans-serif;
+    scroll-behavior: smooth;
+    background-color: var(--main-section-bg-color);
+}
+
+h3,h2,h1,h4,p{
+    padding: 0;
+    margin: 0;
+    /*font-family: Helvetica Neue, sans-serif ;*/
+    font-family: Open Sans, sans-serif;
+    scroll-behavior: smooth;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #747474 !important;
+    font-size: 20px !important;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    /*color: #939191 !important;*/
+    color: #7E2025 !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #7E2025 !important;
+}
+
+.swiper-pagination {
+    margin-top: 1rem;
+}
+
+.swiper-pagination {
+    position: absolute;
+    bottom: 0 !important;
+    /*width: auto !important;*/
+    /*align-self: center !important;*/
+    /*left: 48% !important;*/
+    margin: 0;
+    /*background-color: red;*/
+}
+
+.header-swiper .swiper-wrapper {
+    height: 41rem !important;
+    /*background-color: red;*/
+}
+
+.exc-carousel .swiper-wrapper {
+    height: 38rem !important;
+    padding-top: 5rem;
+    /*background-color: red;*/
+}
+
+.swiper-pagination-bullet {
+    padding: 5px 5px;
+    border-radius: 0;
+    width: auto;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+    color: #000;
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.swiper-pagination-bullet-active {
+    color: #fff;
+    background: #007aff;
+}
+
+@media screen and (max-width: 800px) {
+    .header-swiper .swiper-wrapper {
+        height: 40rem !important;
+    }
+
+    .exc-carousel .swiper-wrapper {
+        height: 28rem !important;
+        /*background-color: red;*/
+    }
+
+    .swiper-pagination {
+        /*margin-left: 33% !important;*/
+    }
+}
+
+/*@media (prefers-color-scheme: dark) {*/
+/*  html {*/
+/*    color-scheme: dark;*/
+/*  }*/
+/*  body {*/
+/*    color: black;*/
+/*    background: white;*/
+/*  }*/
+/*}*/
+
+
+/*It is for Google Autocomplete places search*/
+.pac-container {
+    z-index: 10001 !important;
+    background-color: #fff;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+/*Start CSS for Multiselect*/
+.highlightOption {
+    background: none !important;
+    color: inherit !important;
+}
+
+.highlightOption:hover {
+    background: #0096fb !important;
+    color: inherit !important;
+}
+
+/*End CSS for Multiselect*/
+
+/*Start to hide the Number inc/dec default icons on field*/
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+/*End to hide the Number inc/dec default icons on field*/

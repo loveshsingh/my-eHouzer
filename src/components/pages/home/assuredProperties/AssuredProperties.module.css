@@ -1,0 +1,10 @@
+.assured-properties {
+    background-color: #FBF8F8;
+    padding: 2rem 3rem;
+}
+
+@media screen and (max-width: 800px) {
+    .assured-properties {
+        padding: 0;
+    }
+}

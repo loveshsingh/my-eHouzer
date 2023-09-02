@@ -1,0 +1,35 @@
+.properties {
+}
+
+.properties__heading-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 2rem;
+}
+
+.properties__heading {
+    font-size: 2.5rem;
+}
+
+.properties__view-more {
+    font-size: 18px;
+    font-weight: 600;
+    color: #9A5255;
+    cursor: pointer;
+}
+.properties__view-more:hover {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(154, 82, 85, 0.6);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+    .properties__heading-wrapper {
+        padding: 1rem;
+    }
+    .properties__heading{
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,66 @@
+.stepper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+}
+
+.stepper__step {
+    height: 1.8rem;
+    width: 1.8rem;
+    border-radius: 100%;
+    background-color: #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.stepper__step-active {
+    background-color: #A2373D;
+}
+
+.stepper__step-num{
+    font-size: 0.9rem;
+    color: white;
+}
+
+.stepper__step-text{
+    position: absolute;
+    font-size: 1.1rem;
+    bottom: -2.2rem;
+    width: 20vw;
+    text-align: center;
+    font-weight: 500;
+    color: #747474;
+}
+
+.stepper__step-text-active{
+    color: #A2373D;
+}
+
+.stepper__progress {
+    width: 20rem;
+    height: 2px;
+    background-color: #D9D9D9;
+}
+
+.stepper__progress-active {
+    background-color: #A2373D;
+}
+
+@media screen and (max-width: 800px) {
+    .stepper {
+        margin-left: 15%;
+        margin-right: 15%;
+        width: 70%;
+        margin-bottom: 5rem;
+    }
+    .stepper__step-text{
+        bottom: -3.2rem;
+    }
+    .stepper__step {
+        width: 4.8rem;
+    }
+}

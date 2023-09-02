@@ -1,0 +1,59 @@
+.swiper_container {
+    height: auto;
+    padding:0 28% ;
+    position: relative;
+}
+.swiper_image{
+    height: 400px;
+    width: 100%;
+    border-radius: 20px;
+}
+.slider-controler{
+    padding:3% 40% 3%;
+    display:flex;
+    justify-content: space-between;
+}
+.customer__popup-header-close {
+    align-self: end;
+    cursor: pointer;
+    justify-content: flex-end;
+    display: flex;
+    padding: 1rem 1rem 0 0;
+    color: white;
+}
+.swiper-button-prev{
+    cursor: pointer;
+}
+.swiper-button-next{
+    cursor: pointer;
+}
+
+@media (max-width: 800px) {
+    .swiper_container {
+        height: auto;
+        padding:0 20% ;
+        position: relative;
+    }
+    .swiper_image{
+        height: 300px;
+        width: 100%;
+    }
+    .slider-controler{
+        padding:3% 20% 3%;
+    }
+}
+
+@media (max-width: 450px) {
+    .swiper_container {
+        height: auto;
+        padding:0 15% ;
+        position: relative;
+    }
+    .swiper_image{
+        height: 200px;
+        width: 100%;
+    }
+}
+
+
+

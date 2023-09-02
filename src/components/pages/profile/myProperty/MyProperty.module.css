@@ -1,0 +1,36 @@
+.my-property {
+    width: 100%;
+    padding: 1rem 6rem;
+}
+
+.my-property__booked-property-text {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #424242;
+}
+
+.my-property__progress-tracker {
+    margin: 2rem 0;
+}
+
+.my-property__booked-property-card {
+    margin: 4rem 0;
+}
+
+@media screen and (max-width: 800px) {
+    .my-property {
+        padding: 1rem;
+    }
+    .my-property__progress-tracker__booked-property-card__wrapper{
+        margin-bottom: 220px;
+    }
+    .my-property__booked-property-card{
+        display: flex;
+    }
+    .my-property__booked-property-card{
+        margin: 0 0 4rem;
+    }
+    .my-property__progress-tracker {
+        margin: 2rem 0 0;
+    }
+}

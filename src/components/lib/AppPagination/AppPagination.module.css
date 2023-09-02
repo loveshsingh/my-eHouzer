@@ -1,0 +1,38 @@
+.app-pagination__container {
+    display: flex;
+    /*background-color: var(--pagination-bg-color);*/
+    padding-top: 1.8rem ;
+   /*width: 15rem;*/
+    width: fit-content;
+}
+
+.app-pagination__btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.app-pagination__btn {
+ /*   background: #ff8080;
+    margin: 0 0.5rem;
+    color: #f2f2f2;*/
+}
+
+.app-pagination__btn-active {
+   /* background: #670A0E;
+    margin: 0 0.5rem;
+    color: #f2f2f2;*/
+
+}
+
+.app-pagination__dropdown-container {
+
+}
+.app-pagination__button{
+    cursor: pointer;
+    color: black;
+    border: none;
+    background: none;
+}

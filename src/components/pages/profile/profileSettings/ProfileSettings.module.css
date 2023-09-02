@@ -1,0 +1,69 @@
+.profile-setting {
+    width: 100%;
+    padding: 1rem 6rem;
+}
+
+.profile-setting__main-heading {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #424242;
+    margin-top: 2rem;
+}
+
+.profile-setting__main-desc {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #747474;
+    margin-top: 0.5rem;
+}
+
+.profile-setting-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 8rem;
+    border: 1px solid #BE6E73;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+.profile-setting-details-container {
+    margin-left: 2rem;
+}
+
+.profile-setting__heading {
+    font-size: 0.9rem;
+    color: #424242;
+}
+
+.profile-setting__delete-heading {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #424242;
+    margin-top: 0.5rem;
+}
+
+.profile-setting__desc {
+    font-size: 0.9rem;
+    color: #424242;
+    margin-top: 0.5rem;
+}
+
+.profile-setting-button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 100%;
+    padding: 1.5rem;
+}
+
+.profile-setting-delete-button {
+    padding: 0.5rem 1.5rem;
+}
+
+@media screen and (max-width: 800px) {
+    .profile-setting {
+        padding: 1rem;
+    }
+}
